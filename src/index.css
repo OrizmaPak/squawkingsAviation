@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: B612regular;
+    padding: 0px;
+    margin: 0px;
+    /* overflow-x: hidden; */
+}
+
+
+
+@layer base {
+    @font-face {
+      font-family: B612regular;
+      font-weight: 400;
+      src: url(../src/assets/fonts/B612-Regular.ttf) format("woff");
+    }
+    @font-face {
+      font-family: B612italic;
+      font-weight: 400;
+      src: url(../src/assets/fonts/B612-Italic.ttf) format("woff");
+    }
+    @font-face {
+      font-family: B612bold;
+      font-weight: 400;
+      src: url(../src/assets/fonts/B612-Bold.ttf) format("woff");
+    }
+    @font-face {
+      font-family: B612bolditalic;
+      font-weight: 400;
+      src: url(../src/assets/fonts/B612-BoldItalic.ttf) format("woff");
+    }
+    @font-face {
+      font-family: KanitBold;
+      font-weight: 400;
+      src: url(../src/assets/fonts/B612-Bold.ttf) format("woff");
+    }
+    @font-face {
+      font-family: KanitExtraBold;
+      font-weight: 600;
+      src: url(../src/assets/fonts/Kanit-ExtraBold.ttf) format("woff");
+    }
+    @font-face {
+      font-family: RussoOne;
+      font-weight: 600;
+      src: url(../src/assets/fonts/RussoOne-Regular.ttf) format("woff");
+      /* color: linear-gradient(rgba(44, 50, 13, 0.756), rgba(55, 62, 21, 0.386)) */
+    }
+  }
+  
+  @keyframes swing-right-fwd {
+    0% {
+      -webkit-transform: rotateY(0);
+              transform: rotateY(0);
+      -webkit-transform-origin: left;
+              transform-origin: left;
+    }
+    100% {
+      -webkit-transform: rotateY(180deg);
+              transform: rotateY(180deg);
+      -webkit-transform-origin: left;
+              transform-origin: left;
+    }
+  }
+  
+
+  .swing-right-fwd {
+	-webkit-animation: swing-right-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: swing-right-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            left:-27% !important;
+        }
+        
+        @keyframes swing-right-fwdR {
+            0% {
+                -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+                -webkit-transform-origin: left;
+                transform-origin: left;
+            }
+            100% {
+                -webkit-transform: rotateY(0);
+                transform: rotateY(0);
+                -webkit-transform-origin: left;
+                transform-origin: left;
+            }
+        }
+        
+
+        .swing-right-fwdR {
+            -webkit-animation: swing-right-fwdR 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: swing-right-fwdR 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            left: 7% !important;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #57ed07 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 9px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #998953;
+    border-radius: 10px;
+    /* border: 3px solid #ffffff; */
+  }
+
+  .rotate-lg-6 {
+    transform: rotate(6deg);
+  }
+
+  .fancy-border-radius {
+    border-radius: 53% 47% 52% 48% / 36% 41% 59% 64%;
+  }
+
+  .navMobileActive{
+    background-color: #4a6e36 !important;
+    color: white !important;
+  }
+
+  .navPcActive{
+    background-color: #4a6e36 !important;
+    color: white !important;
+    border-top-left-radius: 0.5rem !important;
+    border-bottom-right-radius: 0.5rem !important;
+  }
+
+  .animated-gradient {
+    animation: animateBg 2s linear infinite;
+    background-image: linear-gradient(90deg,#daffef92,#30312b,#cfefe08a,#34372e,#c3e5d771);
+    background-size: 400% 100%;
+  }
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+  }
+  
+  @keyframes opacity {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.5
+    }
+    50% {
+      opacity: 0
+    }
+    75% {
+      opacity: 0.5
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .blinking {
+    animation: opacity 2s ease-in-out infinite;
+    opacity: 1;
+}
