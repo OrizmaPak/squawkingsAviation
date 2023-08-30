@@ -12,7 +12,7 @@ function FromTheCloudContent() {
     }
   return (
     <>
-        <div style={asskbg} className="dark:bg-gray-800 pb-[70px] dark:text-gray-50">
+        <div style={asskbg} className="bg-gray-800 pb-[70px] dark:text-gray-50">
     <button onClick={e=>setChange_pagesub(null)} className="bg-[#000000] mt-6 text-[#ffffff] hover:bg-[#252525] font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
             Back
     </button>
