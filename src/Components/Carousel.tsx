@@ -92,9 +92,9 @@ const goToSlide = (slideIndex:any) => {
       <div className=' absolute z-10 h-fit w-full top-[86%] rounded-2xl flex justify-center'>
         {slides.map((slide, slideIndex) => (
           <div
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
+          key={slideIndex}
+          onClick={() => goToSlide(slideIndex)}
+          className='text-2xl cursor-pointer'
           >
             <RxDotFilled color='green' size={slideIndex == currentIndex ? 25 : 20} style={{}}/>
           </div>

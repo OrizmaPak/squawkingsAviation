@@ -72,6 +72,17 @@ function AboutUs() {
                 </div>
             </div>
 
+            <div className="flex lg:flex-row flex-col justify-between md:min-h-[300px] gap-8 pt-12">
+                <div className=" block md:block w-full lg:w-8/12">
+                    <img className="w-full h-full rounded-tl-[20px] rounded-br-[20px]" src="valueproposition.jpg" alt="A group of People" />
+                </div>
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">
+                    <h1 className="  text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-white pb-4 font-RussoOne text-[#1a4e19cf]">Value Proposition: </h1>
+                    
+                    <p className="  font-normal text-base leading-6 text-gray-600 dark:text-white"><span className=' font-RussoOne text-[#1f3b1fb9]'>Squawkings Aviation Software LTD offers a compelling value proposition to the aviation industry, particularly in the African context: Innovative solutions for connectivity, efficiency and optimization, support for regulatory initiatives, data-driven decision making, pioneering African innovation, scalable solutions, collaborative ecosystem and strategic partnerships.</span><br/> </p>
+                </div>
+            </div>
+
         </div>
         <Footer/>
 

@@ -63,8 +63,8 @@ function App() {
   
   
   function MyProvider({ children }: { children: React.ReactNode }) {
-    const [count, setCount] = useState(0);
-    const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [count, setCount] = useState(0);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isPc, setIsPc] = useState<boolean>(false);
   const [pageone, setPageone] = useState<any>(null);
   const [pagetwo, setPagetwo] = useState<any>(null);
