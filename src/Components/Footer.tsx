@@ -60,6 +60,7 @@ function Footer() {
             > 
                {/* <img className='w-[35px] mx-[6px] h-[10px]' src="phone.png"/> +234 (0) 8122465182<br/> 
                <img className='w-[35px] mx-[6px] h-[10px]' src="phone.png"/> +234 (0) 7045476300<br/>  */}
+               
                <img className='w-[15px] mt-1 mx-[6px] h-[10px]' src="phone.png"/> +234 (0) 8136186836
             </a>
             <a
@@ -77,6 +78,14 @@ function Footer() {
               className="transition-colors flex duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             > 
                <img className='w-[15px] mt-1 mx-[6px] h-[10px]' src="phone.png"/> +234 (0) 8122465182
+            </a>
+            <a
+              href="tel:+2348122465182"
+              aria-label="Our phone"
+              title="Our phone"
+              className="transition-colors flex duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            > 
+               <img className='w-[15px] mt-1 mx-[6px] h-[10px]' src="phone.png"/> +234 (0) 8105024494
             </a>
           </div>
           <div className="flex">
