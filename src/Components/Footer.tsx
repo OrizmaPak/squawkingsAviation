@@ -105,6 +105,20 @@ function Footer() {
               God's Grace Plaza 2nd Floor, 65, Allen Avenue, Ikeja, Lagos State, Nigeria.
             </a>
           </div>
+          <div className="flex">
+            <img className='w-[25px] mt-1 mx-[6px] h-[25px]' src="location.png"/>
+            {/* <p className="mr-1 text-gray-800 font-RussoOne">Address:</p> */}
+            <a
+              href="https://www.google.com/maps"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Our address"
+              title="Our address"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >
+              No 2 hospital road, Mosheshe Estate, off airport road, Effurun, Delta State, Nigeria.
+            </a>
+          </div>
         </div>
         <div className=''>
           <span className="text-base font-bold font-RussoOne tracking-wide block">
