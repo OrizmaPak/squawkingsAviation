@@ -53,7 +53,7 @@ function Footer() {
             {/* <p className="mr-1 font-RussoOne text-gray-800">Phone:</p> */}
             
             <a
-              href="tel:+2338136186836"
+              href="tel:+2348136186836"
               aria-label="Our phone"
               title="Our phone"
               className="transition-colors flex duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
@@ -80,7 +80,7 @@ function Footer() {
                <img className='w-[15px] mt-1 mx-[6px] h-[10px]' src="phone.png"/> +234 (0) 8122465182
             </a>
             <a
-              href="tel:+2348122465182"
+              href="tel:+2348105024494"
               aria-label="Our phone"
               title="Our phone"
               className="transition-colors flex duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
